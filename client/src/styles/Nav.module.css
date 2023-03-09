@@ -34,7 +34,7 @@
 
 .pokeInput {
 	border-radius: 10px;
-	font-size: 16px;
+	font-size: 20px;
 	box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.40);
 	border: 1px solid;
 }
@@ -48,5 +48,10 @@
 	font-family: monospace;
 	cursor: pointer;
 	border: 1px solid;
+}
+
+.icons {
+	margin-left: -25px;
+	font-size: 20px;
 }
 

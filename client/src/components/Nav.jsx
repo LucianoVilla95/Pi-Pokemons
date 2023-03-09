@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getNamePokemons } from '../actions/index.js';
 import style from '../styles/Nav.module.css';
+import { AiOutlineSearch } from 'react-icons/ai';
 
 export default function Nav() {
 	const dispatch = useDispatch();
@@ -32,6 +33,7 @@ export default function Nav() {
 			</div>
 			<div className={style.pokeInputCont}>
 				<input type='text' placeholder='Pokemon...' onChange={e => handleInputChange(e)} className={style.pokeInput} />
+				<AiOutlineSearch className={style.icons} />
 {/*				<button type='submit' onClick={e => handleSubmit(e)} className={style.pokeBut2}>Search</button>
 */}			</div>
 		</div>
